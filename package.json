@@ -4,7 +4,6 @@
   "description": "",
   "main": "sum-from-files.js",
   "type": "module",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Ordoga/nodejs-basics/issues"
   },
-  "homepage": "https://github.com/Ordoga/nodejs-basics#readme"
+  "homepage": "https://github.com/Ordoga/nodejs-basics#readme",
+  "dependencies": {
+    "follow-redirects": "^1.15.6"
+  }
 }
