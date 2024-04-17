@@ -1,7 +1,6 @@
-const ms = require('ms')
-const fs = require('fs')
-const readline = require('readline')
-const utilService = require('./util.service.js')
+import ms from 'ms'
+import fs from 'fs'
+import readline from 'readline'
 
 const timestampsStream = fs.createReadStream('data/timestamps.txt')
 
